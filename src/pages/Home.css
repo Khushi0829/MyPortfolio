@@ -1,0 +1,199 @@
+
+  
+  .heading {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0px;
+      margin: 0;
+      width: 100%;
+
+  }
+
+  
+.heading h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+  
+
+  
+
+.about{
+  margin-left: 20px;
+  /* margin-top: 30px; */
+  width: 92%;
+  height: 70vh;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.about h2{
+    text-align: center;
+   
+}
+ .about ul li{
+    list-style: none;
+    text-align: left;
+    line-height: 40px;
+  }
+
+  .about p{
+    margin-top: 50px;
+  }
+
+  .about h2,h3, .about p, .about ul li,h2 {
+    font-weight: bold; /* Make fonts heavier */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Soft shadow behind text */
+  }
+
+  .about ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    position: relative;
+  transition: 0.4s ease, top 0.4s ease;
+  }
+
+  .about a:hover{
+    color: aliceblue;
+    top: -3px;
+    
+  }
+
+
+  .contact ul li a img{
+    width: 24px;
+    padding-right: 2px;
+    margin-right: 10px;
+  }
+
+  .contact ul li {
+   list-style: none;
+   color: white;
+
+  }
+
+  .contact {
+    padding: 40px;
+    border-radius: 56px;
+    width: 80%;
+    max-width: 700px;
+    margin: 50px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .contact ul li a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    text-decoration: none;
+  }
+
+.contact a:hover{
+  color: rgb(6, 4, 94);
+    bottom: -3px;
+    transition: width 0.4s ease, left 0.4s ease;
+    
+  }
+
+  .home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90%;
+    padding: 29px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin: 38px;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 4px 30px rgba(8, 8, 8, 0.3);
+    width: 50%;
+    margin-left: 40vh;
+    flex-direction: column;
+  }
+  
+  .home p, .home h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .home h3 {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .skills {
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.1); /* slight white transparent */
+    border-radius: 20px;
+    /* backdrop-filter: blur(8px); for glass effect */
+    box-shadow: 0 8px 30px rgba(2, 2, 2, 0.2);
+    text-align: center;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .skills ul {
+    list-style-type: none; /* no bullet points */
+    padding: 0;
+  }
+  
+  .skills ul li {
+    font-size: 1.2rem;
+    color: white;
+    margin: 10px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.5px;
+  }
+  
+
+
+.projects {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 700px;
+  font-size: 20px;
+  box-shadow: 0 8px 20px rgba(7, 7, 7, 0.5);
+  color: white; /* adjust if you want */
+  text-align: center;
+}
+
+.projects h2{
+  font-size: 28px;
+  font-weight: 700;
+}
+.projects ul li {
+    list-style: none
+}
+
+.projects a{
+  text-decoration: none;
+  color: aliceblue;
+  line-height: 40px;
+  font-size: 24px;
+  transition: all 0.4s ease;
+}
+
+.projects a:hover{
+  color: rgb(3, 3, 66);
+  padding-left: 5px;
+}
