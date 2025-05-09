@@ -28,7 +28,7 @@ const About = () => {
         
       </li>
       <li>
-        <a href='/Khushi_Resume.pdf' target='blank' rel='noopener noreferrer' className='resume-btn'> View My Resume</a>
+        <a href='/Khushi1.pdf' target='blank' rel='noopener noreferrer' className='resume-btn'> View My Resume</a>
       </li>
       </ul>
     </div>
