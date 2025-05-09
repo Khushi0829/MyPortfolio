@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from  'react-router-dom';
-import { useLocation } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Link,useLocation, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';

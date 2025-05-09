@@ -11,11 +11,15 @@ const About = () => {
       <p>A passionate Frontent Developer, recently learning backend technologies to become a successfull Web Developer.<br />
         Had done 2 weeks of UI developer internship in The APN Design Company, Jaipur Rajasthan.
       </p>
-      <ul>
-       
+
+      <ul> 
         <li> Successfully completed: HTML, CSS, JavaScript.</li>
         <li>Currently working on : PHP, NodeJs.</li>
+        </ul>
+
       <h3>Here are some certificates' links : </h3>
+       
+        <ul>
       <li>
         <a href='https://unstop.com/certificate-preview/0c7567e7-f963-4d8f-8974-f7f71381cf9c' target='_blank' rel='noreferrer'>MCQ+Coding Assessment of Unstop Talent Park - Tech </a>
       </li>
